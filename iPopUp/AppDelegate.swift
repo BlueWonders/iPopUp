@@ -3,8 +3,8 @@
 //  iPopUp
 //
 //  Created by apple on 14.10.2016.
-//  Copyright © 2016 oska. All rights reserved.
-//
+//  Copyright © 2016 BlueWonders. All rights reserved.
+// 
 
 import UIKit
 import CoreData

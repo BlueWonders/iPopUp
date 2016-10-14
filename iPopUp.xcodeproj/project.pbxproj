@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181C8A231DB0FC930075D94D /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 181C8A221DB0FC930075D94D /* back.jpg */; };
+		181C8A271DB0FFD30075D94D /* illust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 181C8A261DB0FFD30075D94D /* illust.jpg */; };
 		183BE7CD1DB0F11E001A831E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7CC1DB0F11E001A831E /* AppDelegate.swift */; };
 		183BE7CF1DB0F11E001A831E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7CE1DB0F11E001A831E /* ViewController.swift */; };
 		183BE7D21DB0F11E001A831E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183BE7D01DB0F11E001A831E /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		183BE7DA1DB0F11E001A831E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183BE7D81DB0F11E001A831E /* LaunchScreen.storyboard */; };
 		183BE7E51DB0F11E001A831E /* iPopUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7E41DB0F11E001A831E /* iPopUpTests.swift */; };
 		183BE7F01DB0F11E001A831E /* iPopUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7EF1DB0F11E001A831E /* iPopUpUITests.swift */; };
+		183BE8001DB0F202001A831E /* PopUp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE7FF1DB0F202001A831E /* PopUp1.swift */; };
+		183BE8041DB0F38A001A831E /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BE8031DB0F38A001A831E /* GlobalVariables.swift */; };
+		183BE8071DB0F749001A831E /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BE8061DB0F749001A831E /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181C8A221DB0FC930075D94D /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		181C8A261DB0FFD30075D94D /* illust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = illust.jpg; sourceTree = "<group>"; };
 		183BE7C91DB0F11E001A831E /* iPopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183BE7CC1DB0F11E001A831E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		183BE7CE1DB0F11E001A831E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		183BE7EB1DB0F11E001A831E /* iPopUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPopUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183BE7EF1DB0F11E001A831E /* iPopUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPopUpUITests.swift; sourceTree = "<group>"; };
 		183BE7F11DB0F11E001A831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183BE7FF1DB0F202001A831E /* PopUp1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp1.swift; sourceTree = "<group>"; };
+		183BE8031DB0F38A001A831E /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		183BE8061DB0F749001A831E /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				183BE7CC1DB0F11E001A831E /* AppDelegate.swift */,
+				183BE8031DB0F38A001A831E /* GlobalVariables.swift */,
 				183BE7CE1DB0F11E001A831E /* ViewController.swift */,
+				183BE7FF1DB0F202001A831E /* PopUp1.swift */,
 				183BE7D01DB0F11E001A831E /* Main.storyboard */,
 				183BE7D61DB0F11E001A831E /* Assets.xcassets */,
 				183BE7D81DB0F11E001A831E /* LaunchScreen.storyboard */,
 				183BE7DB1DB0F11E001A831E /* Info.plist */,
 				183BE7D31DB0F11E001A831E /* iPopUp.xcdatamodeld */,
+				183BE8051DB0F749001A831E /* IconsMenu */,
 			);
 			path = iPopUp;
 			sourceTree = "<group>";
@@ -126,6 +139,16 @@
 				183BE7F11DB0F11E001A831E /* Info.plist */,
 			);
 			path = iPopUpUITests;
+			sourceTree = "<group>";
+		};
+		183BE8051DB0F749001A831E /* IconsMenu */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A221DB0FC930075D94D /* back.jpg */,
+				181C8A261DB0FFD30075D94D /* illust.jpg */,
+				183BE8061DB0F749001A831E /* cat.png */,
+			);
+			path = IconsMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +219,7 @@
 				TargetAttributes = {
 					183BE7C81DB0F11E001A831E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 287UHSN369;
 						ProvisioningStyle = Automatic;
 					};
 					183BE7DF1DB0F11E001A831E = {
@@ -236,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				183BE7DA1DB0F11E001A831E /* LaunchScreen.storyboard in Resources */,
+				181C8A231DB0FC930075D94D /* back.jpg in Resources */,
 				183BE7D71DB0F11E001A831E /* Assets.xcassets in Resources */,
+				183BE8071DB0F749001A831E /* cat.png in Resources */,
+				181C8A271DB0FFD30075D94D /* illust.jpg in Resources */,
 				183BE7D21DB0F11E001A831E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183BE8001DB0F202001A831E /* PopUp1.swift in Sources */,
 				183BE7CF1DB0F11E001A831E /* ViewController.swift in Sources */,
 				183BE7CD1DB0F11E001A831E /* AppDelegate.swift in Sources */,
 				183BE7D51DB0F11E001A831E /* iPopUp.xcdatamodeld in Sources */,
+				183BE8041DB0F38A001A831E /* GlobalVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +445,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 287UHSN369;
 				INFOPLIST_FILE = iPopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.oskayazilim.iPopUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eceaker.iPopUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,9 +458,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 287UHSN369;
 				INFOPLIST_FILE = iPopUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.oskayazilim.iPopUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eceaker.iPopUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -509,6 +540,7 @@
 				183BE7F61DB0F11E001A831E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183BE7F71DB0F11E001A831E /* Build configuration list for PBXNativeTarget "iPopUpTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +549,7 @@
 				183BE7F91DB0F11E001A831E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183BE7FA1DB0F11E001A831E /* Build configuration list for PBXNativeTarget "iPopUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +558,7 @@
 				183BE7FC1DB0F11E001A831E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
